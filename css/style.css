@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #100E14;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+#header {
+    padding: 20px 0;
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.header {display: flex;align-items: center;justify-content: space-between;}
+.header-left {
+    display: flex;align-items: center;
+    gap: 25px;
+}
+.header-right {
+    display: flex;align-items: center;gap: 25px;
+}
+.header a {
+    color:#000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+#hero {
+    padding-top: 80px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.hero h1 {
+    color:#FFFFFF ;
+    font-size: 63px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero p {
+ color: #FFFFFFB2; 
+ font-size: 28px;
+ font-weight: 400;  
+ text-align: center;
+}
+.hero button {
+   width: 281px;
+   height: 66px;
+   background: #FF4343;
+   border-radius: 8px;
+   border: none;
+   color: #FFFFFF;
+   font-size: 23px;
+   font-weight: 400;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 12px;
+   cursor: pointer;
+}
+.hero h6 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.hero-imges {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 50px 0;
+}.hero-img {
+    position: absolute;
+    right: 180px;
+}
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.shoot-right {
+    position: relative;
+    margin-left: 100px;
+}
+.shoot-img {
+    position: absolute;
+    left: 310px;
+}
+.shoot-left h1 {
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 400;
+}
+.shoot-left p {
+    color: #FFFFFF80;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#enrich {
+    padding: 100px;
+}
+.enrich {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.enrich-left {
+    position: relative;
+}
+.enrich-img {
+    position: absolute;
+}
+.enrich-right h1 {
+color: #FFFFFF;
+font-size: 58px;
+font-weight: 400;
+}
+.enrich-right p {
+    padding-top: 30px;
+    color: #FFFFFF80;
+    font-size: 27px;
+    font-weight: 400;
+}
+.enrich-right span {
+    color: white;
+}
+#add {
+    padding: 100px;
+}
+
+.add-left h1 {
+    color: #FFFFFF;
+    font-size: 54px;
+    font-weight: 400;
+}
+.add-left p {
+    padding-top: 30px;
+    color: #FFFFFF80;
+    font-size: 27px;
+    font-weight: 400;
+} 
+.add-left span {
+    color: white;
+}
+.add-block {
+    width: 571px;
+    height: 366px;
+    border-radius: 25px;
+    background: rgba(128, 128, 128, 0.103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.block {
+    width: 80%;
+    height: 90px;
+    border-radius: 12px;
+    background: black;
+}
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block {
+    width: 80%;
+    height: 90px;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    display: flex;align-items: center;
+    justify-content: space-around;
+}
+.pink {
+    width: 90px;
+    height: 50px;
+    border-radius: 30px;
+    background: rgba(255, 0, 64, 0.808);
+}
+.block ion-icon {
+    font-size: 26px;
+}
+.social-block {
+    width: 562px;
+    height: 350px;
+    border-radius: 20px;
+    background: rgba(128, 128, 128, 0.103);
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-icons {
+    display: flex;
+    align-items: start;
+    border-radius: 10px 10px 10px 16px;
+}
+.social-icons ion-icon {
+    color: white;
+    font-size: 28px;
+    padding: 10px 10px;
+}
+.youtube {
+    width: 70px;
+    height: 270px;
+    background: red;
+    border-radius: 15px 0 0 0 ;
+    margin:-10px;
+    transition: 0,3s;
+}
+.youtube:hover {
+    transform: translateY(-15px);
+}
+
+.instagram {
+    width: 70px;
+    height: 270px;
+    background: rgb(255, 0, 157);
+    border-radius: 15px 0 0 0 ;
+    margin: -10px;
+    transition: 0,3s;                                                                                        
+}
+.instagram:hover {
+    transform: translateY(-15px);}
+
+.twitch {
+    width: 70px;
+    height: 270px;
+    background: rgb(174, 0, 255);
+    border-radius: 15px 0 0 0 ;
+    margin:-10px;
+    transition: 0,3s;
+}
+.twitch:hover {
+    transform: translateY(-15px);}
+
+.tiktok {
+    width: 70px;
+    height: 270px;
+    background: black;
+    border-radius: 15px 0 0 0 ;
+    margin:-10px;
+    transition: 0,3s;
+}
+.tiktok:hover {
+    transform: translateY(-15px);}
+
+.twitter {
+    width: 70px;
+    height: 270px;
+    background: rgb(0, 140, 255);
+    border-radius: 15px 0 0 0 ;
+    margin:-10px;
+    transition: 0,3s;
+}
+.twitter:hover {
+    transform: translateY(-15px);}
+
+.linkedin {
+    width: 70px;
+    height: 270px;
+    background: rgb(55, 0, 255);
+    border-radius: 15px 0 0 0 ;
+    margin:-10px;
+    transition: 0,3s;
+}
+.linkedin:hover {
+    transform: translateY(-15px);}
+
+.outline {
+    width: 70px;
+    height: 270px;
+    background: rgb(1, 29, 5);
+    border-radius: 15px 0 0 0 ;
+    margin: -10px;
+    transition: 0,3s;
+}
+.outline:hover {
+    transform: translateY(-15px);}
+.whatsapp {
+    width: 70px;
+    height: 270px;
+    background: rgba(0, 255, 55, 0.801);
+    border-radius: 15px 0 15px 0;
+    margin:-10px;
+    transition: 0,3s;
+}
+.whatsapp:hover {
+    transform: translateY(-15px);}
+    .social-info h1{
+        color: #FFFFFF;
+        font-size: 58px;
+        font-weight: 400;
+    }
+    .social-info p {
+        color: #FFFFFF80;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .social-info span {
+        color: white;
+    }
+    #social {
+        padding: 100px 0;
+    }
+    .fa-twitter {
+        font-size: 30px;
+        padding: 10px;
+    }
